@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import Home from './components/Home'
-import About from './components/About'
+// import About from './components/About'
 import Navbar from './components/Navbar'
-import Alert from './components/Alert';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// import Alert from './components/Alert';
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 export default function App(props) {
   const [mode,setMode]=useState('light');
-  const [alert , setAlert]=useState(null);
+  // const [alert , setAlert]=useState(null);
 
   const showAlert=(message,type)=>({
     message:message,
@@ -32,17 +32,17 @@ export default function App(props) {
   }
   return (
     <>
-    <BrowserRouter>
+    {/* <BrowserRouter>
     <Navbar Title="TextUtils" mode={mode} toggelMode={toggelMode}/>
     <Alert alert={alert} />
     <Routes>
       <Route path='/' element={<Home mode={mode}/>}/>
       <Route path='/about' element={ <About/>}/>
     </Routes>
-    
-    
-   
-    </BrowserRouter>
+    </BrowserRouter> */}
+
+    <Navbar Title="TextUtils" mode={mode} toggelMode={toggelMode}/>
+    <Home mode={mode}/>
     </>
   )
 }

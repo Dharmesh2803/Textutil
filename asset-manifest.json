@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Textutil/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Textutil/static/js/main.2b9ab3e1.chunk.js",
+    "main.js.map": "/Textutil/static/js/main.2b9ab3e1.chunk.js.map",
+    "runtime~main.js": "/Textutil/static/js/runtime~main.e683c8e8.js",
+    "runtime~main.js.map": "/Textutil/static/js/runtime~main.e683c8e8.js.map",
+    "static/js/2.a2b181a3.chunk.js": "/Textutil/static/js/2.a2b181a3.chunk.js",
+    "static/js/2.a2b181a3.chunk.js.map": "/Textutil/static/js/2.a2b181a3.chunk.js.map",
+    "static/js/3.1b3c587a.chunk.js": "/Textutil/static/js/3.1b3c587a.chunk.js",
+    "static/js/3.1b3c587a.chunk.js.map": "/Textutil/static/js/3.1b3c587a.chunk.js.map",
+    "index.html": "/Textutil/index.html",
+    "precache-manifest.2fdeacda4140802d65da3cc9d430988b.js": "/Textutil/precache-manifest.2fdeacda4140802d65da3cc9d430988b.js",
+    "service-worker.js": "/Textutil/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Textutil/static/css/main.5ecd60fb.chunk.css.map"
+  }
+}
